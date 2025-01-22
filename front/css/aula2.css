@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: serif      ;
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  font-size: 62.5%  ; 
+  /* equivalente a 10 px */
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: linear-gradient(90deg, #333, #3498db); /* Gradiente horizontal */
+  color: #903939;
+}
