@@ -47,12 +47,12 @@ li {
 /* altera o  css para class com respectivo nome  ,  que  nesse caso  
 é  navegação */
 
-
 h1 , h2,  p {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;/*equivalente  a  20 px  */
   font-size: 20px;
 }
+
 
 a {
   color: #3498db;
