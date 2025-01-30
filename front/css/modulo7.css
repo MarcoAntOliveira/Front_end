@@ -1,3 +1,5 @@
+ @import url('tabelas.css');
+ 
  /* Heranca 
 
  1 - Sobreposicao /sobrescreve
@@ -8,21 +10,31 @@
 
 
  html{
-font-family: sans-serif;
+font-family:"Limelight", cursive;
 color: #00f;
 
 }
 
-article{
-  color: #f22;
+body{
+  background: url('../html/img/estrela.jpeg') ;
 }
+
+article{
+  color: #034589;
+  width: 100%; /* Ou defina uma largura fixa, se necessário */
+  overflow-x: auto; /* Adiciona barra de rolagem horizontal */
+  padding: 10px; /* Para evitar que o conteúdo fique colado nas bordas */
+  box-sizing: border-box;
+}
+
 
 header p {
-   color:#fff;
-   font-size: 1.5rem;
+  color:#fff;
 }
+header h2  {
+  color:#fff;
 
-
+}
 /* combinadores
 
 - (espaço)seletor descent
@@ -30,12 +42,11 @@ header p {
 -(+) combinaddor de elementos irmãos adjacentes/ que vem logo em sequencia
 - (~) combinador  de lementos irmaos geral / Apos elemento de referencia
 
-
 */
 
-header h2 {
+/* header h2 {
   font-weight: 100;
-}
+} */
 
 header > h2{
   font-weight: 600;
@@ -51,19 +62,67 @@ h2 ~ h5 {
 /* pseudo-elementos :*/
 
 a {
-  color: #5555;
+  color: #0f0f0f55;
   text-decoration: none;
 }
 
 a:hover{
   color: #f22;
-  text-decoration: underline;
+  text-decoration: underline;     
 }
 a:visited{
-  background: chocolate;  
+  background: #d60d9a;  
 
 }
 a:active{
   color: aquamarine;
   background: #eee;
+}
+
+p, a{
+  font-family: Helvetica;
+  font-weight: Normal;
+  font-size: 1.4rem;
+ 
+
+}
+
+h1, h2, h3, h4, h5, h6{
+  color: #ffff;
+  font-family: "Limelight", cursive;
+  font-weight: bold;
+
+}
+
+li{
+  letter-spacing:  0.1rem;
+  font-family: Arial;
+  line-height: 1.5;
+  text-align:center;
+}
+
+h3{
+  font: italic bold 1.2rem/2 sans-serif;
+  text-align:center;
+}
+header,
+footer {
+  background-color: #034589;
+}
+footer p {
+  color: rgb(255, 255, 255);
+}
+
+.navegacao{
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+}
+.navegacao li a{
+  color: white;
+  font-size: 1.4rem;
+}
+
+.navegacao li:hover{
+  background-color: rgba(150, 150, 200, 1.5);
+  color: #d60d9a;
 }
