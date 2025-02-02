@@ -1,0 +1,82 @@
+
+:root {
+    --primary-color: #ff6f61;
+    --secondary-color: #4a90e2;
+    --background-color: #1e1e1e;
+    --text-color: #ffffff;
+    --card-bg: #292929;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    text-align: center;
+}
+header {
+    font-family: Arial;
+    background: var(--primary-color);
+    color: white;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: var(--card-bg);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.project {
+    background: var(--secondary-color);
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 5px;
+    color: var(--text-color);
+}
+.contact {
+    margin-top: 30px;
+    padding: 20px;
+    background: var(--card-bg);
+    border-radius: 5px;
+}
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+.contact button {
+    background: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.contact button:hover {
+    background: #e0554f;
+}
+
+#grafico-01{
+    
+    background-color: brown;
+
+    width: 600px;
+    height: 200px;
+
+    overflow: hidden;
+
+    border-radius: 80px;
+
+   
+
+}

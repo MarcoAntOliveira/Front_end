@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="../css/graficos.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Elementos graficos</h1>
+    <div id="grafico-01">
+        <img src="../exe2/img/fundo2.jpg" alt="imagem de exemplo">
+
+    </div>
+    <div id="grafico-02">
+        
+
+    </div>
+
+    <canvas id="canvas"></canvas>
+
+    <script>
+        const canvas = document.createElement("canvas");
+        document.body.appendChild(canvas);
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+        const ctx = canvas.getContext("2d");
+
+        ctx.fillStyle = "#00FF99";
+        ctx.fillRect(80, 0, 100, 80);
+
+    </script>
+
+</body>
+</html>

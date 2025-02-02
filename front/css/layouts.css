@@ -1,14 +1,22 @@
+
+
 *{
     margin: 0;
     padding: 0;
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
+/* header{
+
+
+} */
 body{
     height:  100vh;
     background-color: #efefef;
     overflow: overlay;
+    font-family: Roboto Arial sans-serif;
 }
 h1, h2, p{
     margin-bottom: 20px;
@@ -44,4 +52,16 @@ article{
     width: 200px;
     margin: 0 auto;
     text-align: center;
+}
+
+.background{
+    background-color: lightcoral;
+    background-image: url(../exe2/img/fundo2.jpg);
+    width: 100%;
+    height: 50vh;
+    background-repeat: repeat-x;
+}
+div img{
+    width: 100%;
+    
 }
