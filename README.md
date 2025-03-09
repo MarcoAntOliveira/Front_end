@@ -76,13 +76,20 @@ define até a cor de fundo vai
 }
 ```
 
--has
+- has
 verifca se o conteudo do formularrio é valido,  se não for o campo se esvazia
 
 ```css
 .has-form:has(input:invalid){
   background-color:rgba(255, 107, 107, 0.1)
+```
 
+
+- :not
+permite selecionar todos os elementos exceto o que possui a propriedade
+```css
+.not-container:not(:nth-child(3)){
+  background-color:#548678;
 }
 
 ```
