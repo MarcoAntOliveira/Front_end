@@ -1,0 +1,3 @@
+/home/marco/projects/Front_end/front/img/build/CMakeFiles/main.dir
+/home/marco/projects/Front_end/front/img/build/CMakeFiles/edit_cache.dir
+/home/marco/projects/Front_end/front/img/build/CMakeFiles/rebuild_cache.dir

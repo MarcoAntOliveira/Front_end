@@ -23,6 +23,23 @@ header {
     width: 100%;
     text-align: center;
 }
+.apresentation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.apresentation{
+    background: var(--secondary-color);
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    border-radius: 5px;
+    color: var(--text-color);
+    transition: transform 0.3s ease-in-out;
+
+}
 .container {
     max-width: 90%;
     width: 800px;

@@ -28,21 +28,21 @@ div{
 
 .width-100{
     width: 100%;
-    width:100vw;
+    width:100vw;/*view width*/
     background-color: aqua;
    
     padding: 20px 0;
     height: 400px;
     height:100vh;
 }
-nav{
+nav {
     background-color: ivory;
     width:20%;
     float: left;
     display: table;
     height: 100%;
 }
-article{
+article {
     width:80%;
     float: left;
     box-sizing: border-box;
@@ -50,18 +50,14 @@ article{
 .fixed-width{
     background-color: green;
     width: 200px;
-    margin: 0 auto;
+    margin: 0 auto; /*altera a posição do elemento na tela */
     text-align: center;
 }
 
 .background{
     background-color: lightcoral;
-    background-image: url(../exe2/img/fundo2.jpg);
+    /* background-image: url(/home/marco/projects/Front_end/front/coffee.jpg); */
     width: 100%;
     height: 50vh;
-    background-repeat: repeat-x;
-}
-div img{
-    width: 100%;
-    
+    /* background-repeat: repeat-x; */
 }
