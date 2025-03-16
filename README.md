@@ -17,6 +17,12 @@ estudo de css [link](https://www.w3schools.com/css/)
  - Cores na web
  - Usabilidade
 - Seletores
+    - Raiz html{ ...}
+    - Elemento body, p, a, div{}
+    - Universal *{...}
+    - Identificador #id{...}
+    - Classe .classe{...}
+    - Atributo [type ="text"]{}
 - Unidades
 - Box Model
 - Posicionamento de Elementos
@@ -28,7 +34,7 @@ estudo de css [link](https://www.w3schools.com/css/)
 ### Recursos moderrnos css
 
 - scroll-snap-align
-sempre alinha os sliddes ao centro configura os slides pai e configura os slides filhos de acordo com a necessidade
+sempre alinha os slides ao centro configura os slides pai e configura os slides filhos de acordo com a necessidade
 ```css
 .snap-container{
   overflow-x:auto;
